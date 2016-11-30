@@ -1,6 +1,6 @@
 FROM java:8
 
-RUN apt-get -y install gcc git \
+RUN apt-get --quiet update --yes \
     && apt-get --quiet install --yes lib32stdc++6 lib32z1 \
     && wget --quiet --output-document=android-sdk.tgz https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz \
     && tar --extract --gzip --file=android-sdk.tgz \
