@@ -1,0 +1,74 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.1.2-3'
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:3.0.0'
+        classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.deploygate:gradle:1.0.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url "http://dl.bintray.com/populov/maven" } // for viewpagerindicator
+        maven { url 'https://maven.fabric.io/public' }
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    compileSdkVersion = 25 // 7.1 Nougat
+    buildToolsVersion = '25.0.3'
+    targetSdkVersion = 25
+    minSdkVersion = 17 // 4.2 JELLY_BEAN
+
+    //support
+    supportLibraryVersion = '25.3.1'
+    multidexVersion = '1.0.1'
+    googlePlayServicesVersion = '10.2.4'
+    //DI
+    jsr250Version = "1.0"
+    daggerVersion = "2.7"
+    databindingVersion = "2.3.1"
+    //rx
+    rxJavaVersion = '1.2.4'
+    rxAndroidVersion = '1.2.1'
+    rxPermissionsVersion = '0.9.1@aar'
+    rxLifecycleVersion = "1.0"
+    rxKotlinVersion = "0.60.0"
+    rxbindingVersion = "1.0.1"
+    //view
+    materialDialogsVersion = '0.9.0.2@aar'
+    roundedimageviewVersion = '2.2.1'
+    viewpagerindicatorVersion = '2.4.1@aar'
+    calligraphyVersion = '2.2.0'
+    //image
+    picassoVersion = '2.5.2'
+    scissorsVersion = '1.1.1'
+    //date
+    threeTenAbpVersion = '1.0.5'
+    //sns
+    facebookVersion = '4.7.0'
+    twitterVersion = '2.1.1@aar'
+    //map
+    mapsUtilsVersion = '0.4.3'
+    //http
+    retrofit2Version = '2.1.0'
+    okhttpVersion = '3.4.1'
+    okhttp3DownloaderVersion = '1.1.0'
+    //log
+    timberVersion = "4.4.0"
+    crashlyticsVersion = '2.6.5@aar'
+}
