@@ -17,4 +17,3 @@ RUN mkdir $ANDROID_HOME/licenses \
 RUN sdkmanager --verbose "extras;android;m2repository" "tools" "platform-tools" "extras;google;m2repository" "extras;google;google_play_services" "platforms;android-26" "build-tools;26.0.2"
 
 ADD ./ ./
-RUN ./gradlew
