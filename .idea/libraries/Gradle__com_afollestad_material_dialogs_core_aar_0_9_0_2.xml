@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.afollestad.material-dialogs:core:aar:0.9.0.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad.material-dialogs/core/0.9.0.2/470fe0614151044156c06662ee4b4454c614c2a6/core-0.9.0.2.aar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad.material-dialogs/core/0.9.0.2/977b96d0b7df79d130d7e003112e357ae980ebf0/core-0.9.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

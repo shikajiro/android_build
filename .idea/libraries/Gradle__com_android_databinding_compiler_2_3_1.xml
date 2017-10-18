@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.databinding:compiler:2.3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compiler/2.3.1/e13d8e1f927a7e76805973c3aa4b5db6a1e8d7d/compiler-2.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compiler/2.3.1/37fb1d5fe4b79728d407e7dff58723c83f17748f/compiler-2.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
